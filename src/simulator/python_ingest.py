@@ -18,7 +18,7 @@ import logging
 
 import paho.mqtt.client as mqtt
 
-import EV_software.simulator.db as db
+import db
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("ingest")
